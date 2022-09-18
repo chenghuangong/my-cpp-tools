@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple-tcp-server", "simple-tcp-server\simple-tcp-server.vcxproj", "{D09F90FC-CB4E-41B8-A09D-44E1F445E477}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple-tcp-client", "simple-tcp-client\simple-tcp-client.vcxproj", "{EA58E9A3-2383-4059-831D-534BC855F016}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D09F90FC-CB4E-41B8-A09D-44E1F445E477}.Debug|x64.ActiveCfg = Debug|x64
+		{D09F90FC-CB4E-41B8-A09D-44E1F445E477}.Debug|x64.Build.0 = Debug|x64
+		{D09F90FC-CB4E-41B8-A09D-44E1F445E477}.Release|x64.ActiveCfg = Release|x64
+		{D09F90FC-CB4E-41B8-A09D-44E1F445E477}.Release|x64.Build.0 = Release|x64
+		{EA58E9A3-2383-4059-831D-534BC855F016}.Debug|x64.ActiveCfg = Debug|x64
+		{EA58E9A3-2383-4059-831D-534BC855F016}.Debug|x64.Build.0 = Debug|x64
+		{EA58E9A3-2383-4059-831D-534BC855F016}.Release|x64.ActiveCfg = Release|x64
+		{EA58E9A3-2383-4059-831D-534BC855F016}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F87AB6D3-5457-4795-95D5-BC73835607AC}
+	EndGlobalSection
+EndGlobal
